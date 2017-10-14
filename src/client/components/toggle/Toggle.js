@@ -32,7 +32,7 @@ Toggle.propTypes = {
   isChecked: PropTypes.bool,
   toggleChange: PropTypes.func,
   isRound: PropTypes.bool
-}
+};
 
 const mapStateToProps = state => {
   return {
