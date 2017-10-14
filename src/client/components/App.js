@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import Posts from './components/posts/Posts';
-import data from './fixture';
+import Form from './form/Form';
 
-import logo from './assets/logo.png';
+import logo from '../assets/logo.png';
 
 import './App.css';
 
@@ -15,7 +14,7 @@ class App extends Component {
           <h1 className='app__title'>Welcome to mantagen</h1>
         </header>
         <main className='app__main'>
-          <Posts posts={data} />
+          <Form />
         </main>
         <footer className='app__footer'>
           <img src={logo} className='app__logo' alt='call me hand' />
